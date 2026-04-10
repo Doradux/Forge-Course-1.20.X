@@ -1,6 +1,7 @@
 package net.doradux.mccourse;
 
 import com.mojang.logging.LogUtils;
+import net.doradux.mccourse.block.ModBlocks;
 import net.doradux.mccourse.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,6 +29,7 @@ public class MCCourseMod {
 
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         // Register the commonSetup method for modloading
@@ -48,6 +50,11 @@ public class MCCourseMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BERMEJO);
             event.accept(ModItems.ALBERTO);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.BLOQUE_BERMEJO);
+            event.accept(ModBlocks.BLOQUE_ALBERTO);
         }
     }
 

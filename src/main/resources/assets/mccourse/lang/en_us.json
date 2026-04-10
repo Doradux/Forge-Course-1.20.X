@@ -1,4 +1,6 @@
 {
   "item.mccourse.bermejo": "Bermejo",
-  "item.mccourse.alberto": "Alberto"
+  "item.mccourse.alberto": "Alberto",
+  "block.mccourse.bloque_bermejo" : "El Bermejobloque"
+  "block.mccourse.bloque_alberto" : "El Albertobloque"
 }
