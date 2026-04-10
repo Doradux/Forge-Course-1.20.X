@@ -22,6 +22,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ALBERTO.get());
 
                         output.accept(ModBlocks.BLOQUE_BERMEJO.get());
+                        output.accept(ModBlocks.ORE_BLOQUE_BERMEJO.get());
+                        output.accept(ModBlocks.NETHER_BLOQUE_BERMEJO.get());
+                        output.accept(ModBlocks.END_BLOQUE_BERMEJO.get());
+                        output.accept(ModBlocks.DEEPSTONE_BLOQUE_BERMEJO.get());
+
                         output.accept(ModBlocks.BLOQUE_ALBERTO.get());
                     })
                     .build());

@@ -56,6 +56,11 @@ public class MCCourseMod {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BLOQUE_BERMEJO);
+            event.accept(ModBlocks.ORE_BLOQUE_BERMEJO);
+            event.accept(ModBlocks.NETHER_BLOQUE_BERMEJO);
+            event.accept(ModBlocks.DEEPSTONE_BLOQUE_BERMEJO);
+            event.accept(ModBlocks.END_BLOQUE_BERMEJO);
+
             event.accept(ModBlocks.BLOQUE_ALBERTO);
         }
     }

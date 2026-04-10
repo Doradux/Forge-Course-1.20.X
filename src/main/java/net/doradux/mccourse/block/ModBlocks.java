@@ -18,6 +18,11 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MCCourseMod.MOD_ID);
 
     public static final RegistryObject<Block> BLOQUE_BERMEJO = registerBlock("bloque_bermejo", () -> new Block(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+    public static final RegistryObject<Block> ORE_BLOQUE_BERMEJO = registerBlock("ore_bloque_bermejo", () -> new Block(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+    public static final RegistryObject<Block> NETHER_BLOQUE_BERMEJO = registerBlock("nether_ore_bloque_bermejo", () -> new Block(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+    public static final RegistryObject<Block> DEEPSTONE_BLOQUE_BERMEJO = registerBlock("deepstone_ore_bloque_bermejo", () -> new Block(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+    public static final RegistryObject<Block> END_BLOQUE_BERMEJO = registerBlock("end_ore_bloque_bermejo", () -> new Block(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+
     public static final RegistryObject<Block> BLOQUE_ALBERTO = registerBlock("bloque_alberto", () -> new Block(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

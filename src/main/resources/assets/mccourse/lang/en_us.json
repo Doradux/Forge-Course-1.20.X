@@ -3,6 +3,11 @@
   "item.mccourse.alberto": "Alberto",
 
   "block.mccourse.bloque_bermejo" : "El Bermejobloque",
+  "block.mccourse.ore_bloque_bermejo" : "Mineral del Bermejobloque",
+  "block.mccourse.nether_ore_bloque_bermejo" : "Mineral del Bermejobloque del Inframundo",
+  "block.mccourse.deepstone_ore_bloque_bermejo" : "Mineral del Bermejobloque profundo",
+  "block.mccourse.end_ore_bloque_bermejo" : "Mineral del Bermejobloque del End",
+
   "block.mccourse.bloque_alberto" : "El Albertobloque",
 
   "creativetab.course_tab": "Course Tab"
