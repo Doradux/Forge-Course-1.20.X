@@ -1,6 +1,9 @@
 {
   "item.mccourse.bermejo": "Bermejo",
   "item.mccourse.alberto": "Alberto",
-  "block.mccourse.bloque_bermejo" : "El Bermejobloque"
-  "block.mccourse.bloque_alberto" : "El Albertobloque"
+
+  "block.mccourse.bloque_bermejo" : "El Bermejobloque",
+  "block.mccourse.bloque_alberto" : "El Albertobloque",
+
+  "creativetab.course_tab": "Course Tab"
 }
