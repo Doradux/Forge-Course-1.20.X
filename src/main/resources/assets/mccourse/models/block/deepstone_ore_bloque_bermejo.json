@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mccourse:block/deepstone_ore_bloque_bermejo"
-  }
-}

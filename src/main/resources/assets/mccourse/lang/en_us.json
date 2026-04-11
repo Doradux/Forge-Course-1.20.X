@@ -1,14 +1,14 @@
 {
-  "item.mccourse.bermejo": "Bermejo",
-  "item.mccourse.alberto": "Alberto",
+  "item.mccourse.alexandrite": "Alexandrite",
+  "item.mccourse.raw_alexandrite": "Raw Alexandrite",
 
-  "block.mccourse.bloque_bermejo" : "El Bermejobloque",
-  "block.mccourse.ore_bloque_bermejo" : "Mineral del Bermejobloque",
-  "block.mccourse.nether_ore_bloque_bermejo" : "Mineral del Bermejobloque del Inframundo",
-  "block.mccourse.deepstone_ore_bloque_bermejo" : "Mineral del Bermejobloque profundo",
-  "block.mccourse.end_ore_bloque_bermejo" : "Mineral del Bermejobloque del End",
+  "block.mccourse.alexandrite_block": "Block of Alexandrite",
+  "block.mccourse.raw_alexandrite_block": "Block of Raw Alexandrite",
 
-  "block.mccourse.bloque_alberto" : "El Albertobloque",
+  "block.mccourse.alexandrite_ore": "Alexandrite Ore",
+  "block.mccourse.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore",
+  "block.mccourse.end_stone_alexandrite_ore": "End Stone Alexandrite Ore",
+  "block.mccourse.nether_alexandrite_ore": "Nether Alexandrite Ore",
 
   "creativetab.course_tab": "Course Tab"
 }

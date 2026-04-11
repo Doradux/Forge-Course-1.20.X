@@ -11,8 +11,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, MCCourseMod.MOD_ID);
 
-    public static final RegistryObject<Item> BERMEJO = ITEMS.register("bermejo", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ALBERTO = ITEMS.register("alberto", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
