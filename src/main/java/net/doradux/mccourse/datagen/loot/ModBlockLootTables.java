@@ -28,6 +28,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.NETHER_ALEXANDRITE_ORE.get(), block -> createOreDrop(ModBlocks.NETHER_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
         this.add(ModBlocks.END_STONE_ALEXANDRITE_ORE.get(), block -> createOreDrop(ModBlocks.END_STONE_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
         this.add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(), block -> createOreDrop(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+
+        this.dropSelf(ModBlocks.ALEXANDRITE_STAIRS.get());
+        this.add(ModBlocks.ALEXANDRITE_SLAB.get(), block -> createSlabItemTable(ModBlocks.ALEXANDRITE_SLAB.get()));
     }
 
     @Override
