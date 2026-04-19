@@ -8,6 +8,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -32,6 +33,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ALEXANDRITE_STAIRS = registerBlock("alexandrite_stairs", () -> new StairBlock(() -> ModBlocks.ALEXANDRITE_BLOCK.get().defaultBlockState() ,BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL)));
     public static final RegistryObject<Block> ALEXANDRITE_SLAB = registerBlock("alexandrite_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB)));
+    public static final RegistryObject<Block> ALEXANDRITE_PRESSURE_PLATE = registerBlock("alexandrite_pressure_plate", () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL), BlockSetType.IRON));
+    public static final RegistryObject<Block> ALEXANDRITE_BUTTON = registerBlock("alexandrite_button", () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB), BlockSetType.IRON, 10, true));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
